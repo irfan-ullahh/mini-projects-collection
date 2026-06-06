@@ -1,0 +1,101 @@
+.input-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2385a9ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='18 15 12 9 6 15'/%3E%3C/svg%3E"),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2385a9ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center top 2px, center bottom 2px;
+    background-size: 14px;
+    transition: all 0.2s ease;
+    background-color: var(--surface-card);
+}
+
+.input-checkbox:checked::after {
+    content: '✓';
+    color: rgb(1, 204, 1);
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.todo-item.completed p {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.todo-item {
+    animation: fadeInUp 0.2s ease-out;
+}
+
+.action-btn {
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Edit input field style */
+.edit-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 0.875rem;
+    outline: none;
+    padding: 0;
+    width: 100%;
+}
+
+.edit-input:focus {
+    border-bottom-color: #8b5cf6;
+}
+
+/* Floating animation for edit mode */
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.editing {
+    animation: pulse 1s ease-in-out;
+}
