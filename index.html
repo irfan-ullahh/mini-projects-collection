@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Projects Collection</title>
+    <title>Mini Projects Collection | Irfan Ullah</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional: Smooth fade-in animation for the page */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-indigo-950 via-purple-950 to-zinc-950 min-h-screen">
-    <div class="container mx-auto px-4 py-12">
-        <h1 class="text-white text-4xl font-bold text-center mb-4">🧩 Mini Projects Collection</h1>
-        <p class="text-white/60 text-center mb-12">by Irfan Ullah</p>
+
+<body class="bg-gradient-to-br from-indigo-950 via-purple-950 to-zinc-950 min-h-screen text-white font-sans antialiased">
+    <div class="container mx-auto px-4 py-16 max-w-6xl animate-fade-in">
         
-        <div class="flex justify-center">
-            <a href="01-todo-app/index.html" class="bg-purple-600 text-white px-8 py-4 rounded-xl hover:bg-purple-700 transition-all duration-300 text-lg font-semibold">
-                ✅ View To-Do App
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+                🧩 Mini Projects Collection
+            </h1>
+            <p class="text-lg text-white/60">
+                A curated collection of my web applications and tools by <span class="text-white font-medium">Irfan Ullah</span>
+            </p>
+        </header>
+
+        <!-- Projects Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Project 1: To-Do App -->
+            <a href="01-todo-app/index.html" class="group relative flex flex-col bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-purple-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-500/20">
+                <div class="text-4xl mb-4">✅</div>
+                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">To-Do App</h3>
+                <p class="text-sm text-white/50 mb-6 flex-grow">A sleek task management application to keep track of daily goals.</p>
+                <div class="flex gap-2 text-xs font-medium text-purple-300">
+                    <span class="bg-purple-500/20 px-2 py-1 rounded-md">HTML</span>
+                    <span class="bg-purple-500/20 px-2 py-1 rounded-md">JavaScript</span>
+                </div>
             </a>
+
+            <!-- Project 2: Infra AI Assistant -->
+            <a href="02-infra-ai-assistant/index.html" class="group relative flex flex-col bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-500/20">
+                <div class="text-4xl mb-4">🤖</div>
+                <h3 class="text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Infra AI Assistant</h3>
+                <p class="text-sm text-white/50 mb-6 flex-grow">An interactive AI assistant interface for infrastructure tasks.</p>
+                <div class="flex gap-2 text-xs font-medium text-blue-300">
+                    <span class="bg-blue-500/20 px-2 py-1 rounded-md">HTML</span>
+                    <span class="bg-blue-500/20 px-2 py-1 rounded-md">API</span>
+                </div>
+            </a>
+
+            <!-- Project 3: Event Registration Portal -->
+            <a href="./03-event-registration/index.html" class="group relative flex flex-col bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-emerald-500/20">
+                <div class="text-4xl mb-4">📝</div>
+                <h3 class="text-xl font-bold mb-2 group-hover:text-emerald-400 transition-colors">Event Registration Portal</h3>
+                <p class="text-sm text-white/50 mb-6 flex-grow">A full-stack serverless portal to register guests, search data, and validate duplicates using Google Sheets.</p>
+                <div class="flex flex-wrap gap-2 text-xs font-medium text-emerald-300">
+                    <span class="bg-emerald-500/20 px-2 py-1 rounded-md">HTML</span>
+                    <span class="bg-emerald-500/20 px-2 py-1 rounded-md">Tailwind</span>
+                    <span class="bg-emerald-500/20 px-2 py-1 rounded-md">Google Apps Script</span>
+                </div>
+            </a>
+
         </div>
+
+        <!-- Footer -->
+        <footer class="mt-20 text-center text-white/40 text-sm">
+            <p>&copy; 2026 Irfan Ullah. Built with Tailwind CSS.</p>
+        </footer>
     </div>
 </body>
+
 </html>
