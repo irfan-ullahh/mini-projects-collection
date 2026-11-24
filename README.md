@@ -14,9 +14,9 @@ A centralized hub for my smaller, self-contained web applications and utilities.
 
 | Project | Description | Tech Stack | Live Link |
 | :--- | :--- | :--- | :--- |
-| **[01 - To-Do App](./01-todo-app)** | A sleek task manager with local storage support. | HTML, CSS, JS | [View Live](./01-todo-app/index.html) |
-| **[02 - Infra AI Assistant](./02-infra-ai-assistant)** | An interactive interface for AI-driven infrastructure tasks. | HTML, JS, API | [View Live](./02-infra-ai-assistant/index.html) |
-| **[03 - Event Registration](./03-event-registration)** | A serverless guest registration portal with search, data entry, and duplicate validation. | HTML, Tailwind, Google Apps Script | [View Live](./03-event-registration/index.html) |
+| **[01 - To-Do App](./01-todo-app)** | A sleek task manager with local storage support. | HTML, CSS, JS | [View Live]([./01-todo-app/index.html](https://irfan-ullahh.github.io/mini-projects-collection/01-todo-app/index.html)) |
+| **[02 - Infra AI Assistant](./02-infra-ai-assistant)** | An interactive interface for AI-driven infrastructure tasks. | HTML, JS, API | [Run Local] |
+| **[03 - Event Registration](./03-event-registration)** | A serverless guest registration portal with search, data entry, and duplicate validation. | HTML, Tailwind, Google Apps Script | [View Live](.https://irfan-ullahh.github.io/mini-projects-collection/03-event-registration/index.html) |
 
 ---
 
