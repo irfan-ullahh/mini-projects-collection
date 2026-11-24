@@ -6,17 +6,17 @@
 
 A centralized hub for my smaller, self-contained web applications and utilities. Each project lives in its own directory and is built using lightweight, modern web technologies.
 
-🔗 **Live Demo:** [https://irfan-ullahh.github.io/mini-projects-collection/](https://irfan-ullahh.github.io/mini-projects-collection/)
+🔗 **Live Hub:** [https://irfan-ullahh.github.io/mini-projects-collection/](https://irfan-ullahh.github.io/mini-projects-collection/)
 
 ---
 
 ## 📂 Projects Directory
 
-| Project | Description | Tech Stack | Live Link |
+| Project | Description | Tech Stack | Action |
 | :--- | :--- | :--- | :--- |
-| **[01 - To-Do App](./01-todo-app)** | A sleek task manager with local storage support. | HTML, CSS, JS | [View Live]([./01-todo-app/index.html](https://irfan-ullahh.github.io/mini-projects-collection/01-todo-app/index.html)) |
-| **[02 - Infra AI Assistant](./02-infra-ai-assistant)** | An interactive interface for AI-driven infrastructure tasks. | HTML, JS, API | [Run Local] |
-| **[03 - Event Registration](./03-event-registration)** | A serverless guest registration portal with search, data entry, and duplicate validation. | HTML, Tailwind, Google Apps Script | [View Live](.https://irfan-ullahh.github.io/mini-projects-collection/03-event-registration/index.html) |
+| **[01 - To-Do App](./01-todo-app)** | A sleek task manager with local storage support. | HTML, CSS, JS | <a href="https://irfan-ullahh.github.io/mini-projects-collection/01-todo-app/index.html" target="_blank">View Live ↗</a> |
+| **[02 - Infra AI Assistant](./02-infra-ai-assistant)** | A command-line interface (CLI) tool for AI-driven infrastructure tasks. | Python/Node.js | <a href="https://github.com/irfan-ullahh/mini-projects-collection/tree/main/02-infra-ai-assistant" target="_blank">View Code ↗</a> |
+| **[03 - Event Registration](./03-event-registration)** | A serverless guest registration portal with search, data entry, and duplicate validation. | HTML, Tailwind, Google Apps Script | <a href="https://irfan-ullahh.github.io/mini-projects-collection/03-event-registration/index.html" target="_blank">View Live ↗</a> |
 
 ---
 
@@ -28,7 +28,7 @@ A centralized hub for my smaller, self-contained web applications and utilities.
 
 ## 🛠️ Usage
 
-Since all projects are purely frontend-based (or connected directly to serverless endpoints), you don't need a complex build process to run them locally.
+Since the web projects are purely frontend-based (or connected directly to serverless endpoints), you don't need a complex build process to run them locally.
 
 1. Clone the repository:
    ```bash
